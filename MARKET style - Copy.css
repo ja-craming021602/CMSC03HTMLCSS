@@ -1,0 +1,154 @@
+
+body {
+  margin: 0;
+  font-family: "lato";
+    background-image: url(ban.jpg);
+        ;
+}
+
+.header{
+    background-image:url(pic1.png);
+    background-blend-mode: difference;
+    padding:25px;
+    text-align: center;
+  
+        
+}
+.MyNave {
+  overflow: hidden;
+  background-color: #FF0090;
+}
+
+.MyNave a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 30px;
+    border: 5px solid blue;
+}
+
+.MyNave a:hover {
+  background-color: #16E3F9;
+  color: black;
+}
+
+.MyNave a.active {
+  background-color: #0FEC43;
+  color: white;
+}
+
+.main_container{
+    padding: 20px 40px; 
+    display:flex;
+    margin-left: auto;
+}
+main_container > div{
+   border: 10px solid #ccc;
+    padding: 20px 40px;    
+}
+
+.table, th,td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    .th{text-align: left
+    }
+    
+}
+.left-sidebar{
+    background-color: magenta;
+    border: 10px solid darkgreen; 
+    
+}
+.right-sidebar{ 
+    background-color: yellow;
+     border: 10px solid darkgreen;
+}
+
+.footer{
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50 px;
+    color:#fff;
+    background-color: #011c39;
+}
+.footer-left{
+    margin-right: 400;
+    font-size: 17px;
+    
+}
+.footer ul{ 
+    list-style:none;
+    padding-left: 0;    
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: 2em;
+}
+.footer-right{
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-right> *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+   
+}
+.box a{
+    color: #999;
+    
+}
+.footer-bottom{
+    text-align: center;
+    color:#999;
+    padding-top: 50 px;
+}
+.footer-left{
+    padding-right: 20%;
+    color:#999;
+}
+.socials a{
+    background: #364a62;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color:#e7f2f4;
+    padding: 10px 12 px;
+    font-size: 20 px;
+ @media screen and(min-width:600px){
+     .footer-right > *{
+         flex:1;
+     }  
+      .footer-left{
+         flex:1 0 px;
+    }
+     .footer-right{
+         flex:2 0 px;
+     }
+ }
+
+    @media(max-width: 600px){
+        .footer{ 
+        padding 15px;
+        }
+        main{
+            font-size: 55px;
+            
+        }
+        
+    }
+
